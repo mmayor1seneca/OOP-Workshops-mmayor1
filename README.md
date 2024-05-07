@@ -19,13 +19,15 @@ Go to this url: https://tinyurl.com/244setup
 > If the window is titled “Clone with SSH” then click on “Use HTTPS”: <br />
 ![Use https](images/usehttps.png)
 - Copy the https URL by clicking on the button on the right side of the URL:<br />![Copy URL](images/copyurl.png)
-- Open File Explorer on your computer and select or create a directory for your workshops.
+- Open File Explorer on your computer and select or create a directory for your workshops. 
+> Make sure this directory is not a git repository. **You can not clone a repository inside another repository** 
+
 #### Using [ToroiseGit](https://tortoisegit.org/download/)
 - Right click on the selected directory and select “Git Clone":<br /> ![Git Clone](images/gitclone.png)<br />
 -This will open the “Git Clone” window with the URL already pasted in the “URL” text box; if not, paste the URL manually:<br /> ![Git Clone Dialog](images/gitcloneDialog.png)<br />
 - Click on ok<br />
-This will create on your computer a clone (identical directory structure) of the directory on Github.  Once you have cloned the directory, you can open the workshop directory **OOP-Workshops/WS??** and start doing your workshop. Note that you will repeat this process for all workshops and milestones of your project in this subject.
-> If your professor makes any changes to the workshop or a new workshop is released, you can right click on the cloned repository directory and select **Tortoise Git/pull** to update and sync your local workshops repositoryy to the one on Github with-out having to download it again. Note that this will only apply the changes made and will not affect any work that you have done on your workshop.
+This will create on your computer a clone (identical directory structure) of the directory on Github.  Once you have cloned the directory, you can open the workshop directory **OOP-Workshops/WS??** and copy it to your own separate local directory and start doing your workshop. Note that the cloning process is done only once. The next time when a new workshop is released, all you need to do is to `pull` the repository to download all the changes.
+> If your professor makes any changes to the workshop or a new workshop is released, you can right click on the cloned repository directory and select **Tortoise Git/pull** to update and sync your local workshops repository to the one on Github with-out having to download it again. Note that this will only apply the changes made and will not affect any work that you have done on your workshop.
 #### Using Command line
 - Open the git command line on your computer.
 - Change the directory to your workshops directory.
@@ -35,12 +37,14 @@ git clone https://github.com/Seneca-244200/OOP-Workshops.git<ENTER>
 ```
 > The URL for all the workshops are the same throughout the semester. The only thing that changes, is the workshop number.<br/>
 
-This will create a clone (that is an identical directory structure and content to the one Github) of the OOP-Workshops repository on your computer.  Once you have cloned the directory, you can open the subdirectory the workshop and start doing your work. Note that you will repeat this process for all workshops and milestones of your project in this subject.
+This will create on your computer a clone (identical directory structure) of the directory on Github.  Once you have cloned the directory, you can open the workshop directory **OOP-Workshops/WS??** and copy it to your own separate local directory and start doing your workshop. Note that the cloning process is done only once. The next time when a new workshop is released, all you need to do is to `pull` the repository to download all the changes.
 
 > If your professor makes any changes to the workshop, you can issue the command
+
 ``` bash 
 git pull<ENTER>
 ``` 
+
 >  in the cloned repository directory to update and sync your local workshop to the one on Github without having to download it again. Note that this will only apply the changes made and will not affect any work that you have done on your workshop.
 
 #### Using Download ZIP
