@@ -175,7 +175,7 @@ Quantity: 3
 ## Step 1: *Test the Program*
 
 ### On Visual Studio
-- Open Visual studio 2019 and create an Empty C++ Windows Console Project:<br />
+- Open Visual studio and create an Empty C++ Windows Console Project:<br />
 ![Empty Project](images/emptyproj.png)
 - In VS, (if not open already) open Solution Explorer (click on View/Solution Explorer) and then add w1p1.cpp file to your project:<br />
 -Right-click on **“Source Files”**<br />
@@ -203,18 +203,18 @@ ws<ENTER>
 In the solution explorer, add five new modules to your project:
 - **shoppingListApp**; A module to hold the main() function and its relative functions and constant value. (see below)
 - **File**; A module to hold the functions and global variables related to File processing.
-- **ShoppingList**; A module to hold the direct shopping list related functions, global variables and constants.
-- **ShoppingRec**; A module to hold the shopping record related functions, variables, constants and the **ShoppingRec** structure.
+- **ShoppingList**; A module to hold the direct shopping list-related functions, global variables and constants.
+- **ShoppingRec**; A module to hold the shopping record-related functions, variables, constants and the **ShoppingRec** structure.
 - **Utils**; A module to hold the general utility functions for the applications. This file may be moved to other workshops and assignments if needed.
 
 The **shoppingListApp** module has an implementation (.cpp) file but no header file. The **File**,  **ShoppingList**, **ShoppingRec** and **Utils** modules have both implementation (.cpp) and header (.h) files:
 
 #### Header files
-Add **File.h**,  **ShoppingList.h**, **ShoppingRec.h** and **Utils.h** to the “Header Files” directory (right click on “Header Files” and select “Add/New Item” and add a header file)<br />
+Add **File.h**,  **ShoppingList.h**, **ShoppingRec.h** and **Utils.h** to the “Header Files” directory (right-click on “Header Files” and select “Add/New Item” and add a header file)<br />
 Make sure you add the compilation safeguards and also have all the C++ code in the last four modules in a namespace called “seneca”. 
 
 ##### Compilation Safeguards
-**compilation safeguards** refer to a technique to guard against multiple inclusion of header files. It does so by applying macros that check against a defined name:
+**Compilation safeguards** refer to a technique to guard against multiple inclusion of header files. It does so by applying macros that check against a defined name:
 ```C++
 #ifndef NAMESPACE_HEADERFILENAME_H // replace with relevant names
 #define NAMESPACE_HEADERFILENAME_H
@@ -229,7 +229,7 @@ Additionally, here is an instructional video showing how the compiler works and 
 [Compilation Safegards](https://www.youtube.com/watch?v=EGak2R7QdHo): https://www.youtube.com/watch?v=EGak2R7QdHo
 
 #### CPP Source Files
-Add **shoppingListApp.cpp**, **File.cpp**,  **ShoppingList.cpp**, **ShoppingRec.cpp** and **Utils.cpp** to the “Source Files” directory (right click on “Source Files” and select “Add/New Item” and add a C++ file)<br />
+Add **shoppingListApp.cpp**, **File.cpp**,  **ShoppingList.cpp**, **ShoppingRec.cpp** and **Utils.cpp** to the “Source Files” directory (right-click on “Source Files” and select “Add/New Item” and add a C++ file)<br />
 
 ## Step 3: The main Module
 
@@ -249,7 +249,7 @@ using namespace seneca;
 #### Constant value declaration
 Add the following constant value to the file
 ```C++
-// set to false when compling on Linux
+// set to false when compiling on Linux
 const bool APP_OS_WINDOWS = true;  
 ```
 
@@ -285,7 +285,7 @@ The **main** module should use the **seneca** namespace (```using namespace sene
 
 
 ### ShoppingRec module
-This module Contains the ***ShoppingRec*** Structure.
+This module contains the ***ShoppingRec*** Structure.
 #### Functions
 ```Text
 getShoppingRec
@@ -367,7 +367,7 @@ On Linux, in your matrix account, upload all the module files and the data file 
 
 Modify **shoppingListApp.cpp** and set the APP_OS_WINDOWS constant value to false:
 ```C++
-// set to false when compling on Linux
+// set to false when compiling on Linux
 const bool APP_OS_WINDOWS = false;  
 ```
 and compile the source code using the following command.
