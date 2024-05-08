@@ -64,15 +64,15 @@ When you clone a Workshops or Project repository to your computer, follow these 
 2. **Create Your Own Working Directory or use your own private Git repository:** <br />Instead of modifying the files directly within the cloned repository, create your own private working directory or repository (lets call it `oop244_works`). This ensures that your changes won’t conflict with the original repository. <br />
 Here’s how:
     - Create or locate your OOP244 school work folder or repository on your computer
-    - Create a new folder (directory) in `oop244_works` where you’ll work on the workshop or milestone.
-    - Copy the relevant files or directories from the cloned repository into your new working directory.
-    - Make Changes in Your Working Directory: Now that you have your own copy of the workshop or milestone, feel free to make changes, add code, or update content as needed. You won’t affect the original repository this way.
-    - Commit and Push Changes: If you are working in your own repository, as you work, commit your changes to your local Git repository and push them to your remote repository on GitHub. 
+    - **Create a new folder** (directory) in `oop244_works` where you’ll work on the workshop or milestone.
+    - **Copy the relevant files** or directories from the cloned repository into your new working directory.
+    - **Make Changes in Your Working Directory:** Now that you have your own copy of the workshop or milestone, feel free to make changes, add code, or update content as needed. You won’t affect the original repository this way.
+    - **Commit and Push Changes:** If you are working in your own repository, as you work, commit your changes to your local Git repository and push them to your remote repository on GitHub. 
     > This could be a repository with your professor added as a collaborator so you can easily ask for help and advice without the need to send or share files (see [setting up your computer](#setting-up-your-computers-for-oop244))
 3. **Pull Changes from the Original Repository:** Occasionally, the original repository may receive updates, improvements or posting of new workshops. To incorporate these changes into your working directory, follow these steps:
-    - Pull the latest changes from the original repository.
-    - Copy the changes to the workshop or milestone to your working directory <br /> OR <br />Go to step 2 if a new workshop is released
-    - Commit and push the changes
+    - **Pull** the latest changes from the original repository.
+    - **Copy the changes to the workshop or milestone** to your working directory <br /> OR <br />Go to step 2 if a new workshop is released
+    - **Commit and push** the changes in your own repository
 4. **Continue Working!:** With your own working directory set up, you can now continue working on the workshop or milestone without affecting the original repository.<br />
 
 5. **Submit your code to be marked:**
