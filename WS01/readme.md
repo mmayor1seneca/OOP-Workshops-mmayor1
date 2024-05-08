@@ -184,7 +184,7 @@ Quantity: 3
 -Click on **“Ok”**
 - Now you can run the program by selecting **“Debug/Start Without Debugging”** or pressing the **“Ctr-F5”** button. 
 ### On Linux, in your Matrix account
-- Connect to Seneca with [Global Protect VPN](https://inside.senecacollege.ca/its/services/vpn/studentvpn.html)
+- Connect to Seneca with [Global Protect VPN](https://students.senecapolytechnic.ca/spaces/186/it-services/wiki/view/1024/vpn)
 - Upload **w1p1.cpp** and **shoppinglist.csv** to your matrix account (Ideally to a designated directory for your workshop solutions). Then, enter the following command to compile the source file and create an executable called ws:
 ```bash
 g++ w1p1.cpp -Wall -std=c++11 -o ws<ENTER>
