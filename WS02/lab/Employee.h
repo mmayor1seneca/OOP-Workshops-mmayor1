@@ -25,5 +25,5 @@ namespace seneca {
    // TODO: Declare the prototype for the deallocateMemory function that
    // first will deallocate all the names in the employee elements
    // then it will deallocate the employee array 
-   
+}
 #endif // SENECA_EMPLOYEE_H_
