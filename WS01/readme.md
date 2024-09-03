@@ -191,7 +191,7 @@ Goodbye!
 This program is saved under the file `50BestMovies.cpp`. Your task is to organize this file into three modules:
 
 ## Modules
-*to be created in step 2 section
+* to be created in step 2 section
 
 ### file
 This module will contain file-related functions in `file.h` and `file.cpp` files.
@@ -296,7 +296,7 @@ using namespace std; // not allowed in a ".h" file
 ### Compilation Safeguards explanation
 
 - **Compilation Safeguards** refer to a technique to guard against multiple inclusion of header files. It does so by applying macros that check against a defined name:
-- 
+
 ```c++
 #ifndef NAMESPACE_HEADERFILENAME_H // replace with relevant names
 #define NAMESPACE_HEADERFILENAME_H
@@ -358,6 +358,7 @@ Definitions:
 struct Movie
 ```
 Add the complete definition of the `Movie` structure to the namespace in the header file.
+
 Functions:
 ```
 loadMovies
