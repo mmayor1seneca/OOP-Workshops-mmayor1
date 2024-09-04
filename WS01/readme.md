@@ -1,7 +1,7 @@
 # Workshop #1: Modules, Namespaces
 * Version (1.0)
 
- In process of doing your first workshop you are not any coding but rather organizing an application into mudules. Then you will compile each module separately and construct an executable from the results of each compilation.
+ In process of doing your first workshop you are not any coding but rather organizing an application into modules. Then you will compile each module separately and construct an executable from the results of each compilation.
 
 ## Learning Outcomes
 Upon successful completion of this workshop, you will have demonstrated the abilities to:
@@ -21,7 +21,7 @@ The DIY homework is presented at the end; do it on your own for practice (DIY is
 - Part 1 (**LAB**): A step-by-step guided workshop, worth 100% of the workshop’s total mark.
 > Please note that Part 1 **is not** to be started in your lab session of the week. You should start it on your own before the day of your lab and then join the lab session to possibly seek assistance to complete your lab. These workshops must be submitted in the lab to receive 100% of the mark.
 
-- Reflection: A non-coding part, to be submitted by the end of each week. The reflection doesn’t have marks associated with it but can incur a penalty of up to 40% of the whole workshop’s mark if your professor deems it insufficient (you make your marks from the code, but you can lose some on the reflection).
+- Reflection: A non-coding part, to be submitted a few days later (due date decided by your professor). The reflection doesn’t have marks associated with it but can incur a penalty of up to 40% of the whole workshop’s mark if your professor deems it insufficient (you make your marks from the code, but you can lose some on the reflection).
 
 - Part 2 (**DIY**): A Do It Yourself type of practice that is much more open-ended. This part does not need to be submitted to your professor and does not have any marks tied to it. However, you can always test your program using the automated submitter program or ask your professor for help or feedback.
 
